@@ -5,7 +5,7 @@
 2. `npm install`
 3. `npm run all` (clean -> analyse -> Excel -> site data -> tests).
 4. Optional Excel formula audit: `soffice --headless --calc --convert-to xlsx --outdir /tmp/recalc excel/tableau_analysis.xlsx && node scripts/validate_excel.js`
-5. `npm run serve` and open http://localhost:8080/
+5. `npm run serve` and open https://dazzling-seahorse-592ae5.netlify.app/
 
 ## Part B - Build in Tableau (MANUAL, about 3-5 hours)
 1. Connect to `data/processed/superstore_clean.csv` (Text file). Create an extract.
